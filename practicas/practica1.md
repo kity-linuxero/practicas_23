@@ -33,6 +33,7 @@ Para la realización de esta práctica, imaginemos que estamos escribiendo el so
 - Para la estructura de control de [**iteración**](https://programacion.concristian.com.ar/clase1.html#/est_control_iteracion) se usará la palabra clave `mientras(condicion)`.
 
 - Para informar algo, usaremos la palabra clave `imprimir` y entre paréntesis y comillas el mensaje que queramos informar, por ejemplo `imprimir("Mensaje a informar")`.
+- El robot siempre se encuentra posicionado en la primer ubicación mirando hacia la derecha.
 
 ## Ejercicio 1
 
@@ -63,29 +64,29 @@ Escribir un algoritmo que solo limpie la segunda fila y vuelva a la posición or
 
 ![](img/pr1/aspiradora_2da_fila.png)
 
-## Ejercicio 2
+## Ejercicio 3
 
 Escribir un algoritmo que permita al robot realizar la limpieza con el siguiente recorrido.
 
 ![](img/pr1/aspiradora_ej2.png)
 
-## Ejercicio 3
+## Ejercicio 4
 
 Escribir un algoritmo que permita al robot realizar la limpieza con el siguiente recorrido.
 
 ![](img/pr1/aspiradora_ej3.png)
 
-## Ejercicio 4
-
-Escribir un algoritmo que permita al robot limpiar toda un área del que se desconoce el tamaño. Usando el recorrido del ejercicio 2.
-
-![](img/pr1/aspiradora_big.png)
-
 ## Ejercicio 5
 
 Escribir un algoritmo que permita al robot limpiar toda un área del que se desconoce el tamaño. Usando el recorrido del ejercicio 3.
 
+![](img/pr1/aspiradora_big.png)
+
 ## Ejercicio 6
+
+Escribir un algoritmo que permita al robot limpiar toda un área del que se desconoce el tamaño. Usando el recorrido del ejercicio 4.
+
+## Ejercicio 7
 
 Escriba un algoritmo que permita al robot limpiar un área del que se desconoce el tamaño, pero solamente limpie los lugares que es necesario, consultando a su sensor con la instrucción `esta_limpio`. Si el la posición donde se encuentra está limpia debe avanzar a la siguiente sin realizar la limpieza.
 
