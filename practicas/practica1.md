@@ -97,5 +97,5 @@ Escriba un algoritmo que permita al robot limpiar un área del que se desconoce 
 
 -----
 
-![](img/foot_logos_2.png)
+![](img/foot_logos.png)
 
