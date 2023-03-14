@@ -28,7 +28,7 @@ Para la realización de esta práctica, imaginemos que estamos escribiendo el so
 
 - Para la estructura de control de [**selección**](https://programacion.concristian.com.ar/clase1.html#/est_control_seleccion) se usarán las palabras claves `si(condicion)` y `sino`.
 
-- Para la estructura de control de [**repetición**](https://programacion.concristian.com.ar/clase1.html#/est_control_repeticion) se usará la palabra clave `repetir( X veces)`. `X` es la cantidad de veces que se repetirá. Por ejemplo: `repetir (3 veces)`.
+- Para la estructura de control de [**repetición**](https://programacion.concristian.com.ar/clase1.html#/est_control_repeticion) se usará la palabra clave `repetir(X veces)`. `X` es la cantidad de veces que se repetirá. Por ejemplo: `repetir (3 veces)`.
 
 - Para la estructura de control de [**iteración**](https://programacion.concristian.com.ar/clase1.html#/est_control_iteracion) se usará la palabra clave `mientras(condicion)`.
 
@@ -55,7 +55,7 @@ fin programa
 
 Al finalizar el programa, el estado debería ser el siguiente:
 
-![](img/pr1/pr1/aspiradora_fila.png)
+![](img/pr1/aspiradora_fila.png)
 
 ## Ejercicio 2 
 
