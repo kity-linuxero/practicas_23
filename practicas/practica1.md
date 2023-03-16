@@ -3,7 +3,7 @@
 
 > Esta práctica tiene como objetivo guiar al alumnx en los conceptos teóricos de algoritmos.
 
-Para la realización de esta práctica, imaginemos que estamos escribiendo el software de un robot-aspiradora que debe limpiar un área.
+Para la realización de esta práctica, imaginemos que estamos escribiendo el software de un robot-aspiradora que debe limpiar un área. Imaginemos un área compuesto por filas (horizontales) y columnas (verticales). 
 
 ##### Las instrucciones que entiende el robot son las siguientes:
 
@@ -78,39 +78,40 @@ Escribir un algoritmo que permita al robot realizar la limpieza con el siguiente
 
 ## Ejercicio 5
 
-> A partir de este ejercicio, el área del robot es de `40x40`
-
-Escribir un algoritmo que permita al robot limpiar todo el área usando el recorrido del ejercicio 3.
+Escribir un algoritmo que permita al robot limpiar completamente un área de `40x40` usando el recorrido del ejercicio 3.
 
 ![](img/pr1/aspiradora_big.png)
 
 ## Ejercicio 6
 
-Escribir un algoritmo que permita al robot limpiar todo el área usando el recorrido del ejercicio 4.
+Escribir un algoritmo que permita al robot limpiar completamente un área de `40x40` usando el recorrido del ejercicio 4.
 
 ## Ejercicio 7
 
 Escriba un algoritmo que permita al robot limpiar un área de `40x40`, pero solamente limpie los lugares que es necesario, consultando a su sensor con la instrucción `esta_limpio`. Si el la posición donde se encuentra está limpia debe avanzar a la siguiente sin realizar la limpieza.
 
+- :bulb: Puede ser útil utilizar <a href="https://programacion.concristian.com.ar/clase1.html#/condicionales_negativas" target="_blank">condiciones negativas</a>
+
 ![](img/pr1/aspiradora_random.png)
 
-# Algoritmos y pseudocódigo - Parte I
+
+## Ejercicio 8
 
 >A partir de los siguientes ejercicios, **las baldosas pueden requerir mas de una limpieza** para que quede completamente limpias.
 
-Escriba un algoritmo que permita recorrer las primeras 5 filas limpiando completamente todas las baldosas de la fila.
+Escriba un algoritmo que permita recorrer las primeras 5 filas limpiando completamente todas las baldosas de las filas. El área es de `40x40`.
 
-## Ejercicio
+## Ejercicio 9
 
-Escriba un algoritmo que permita recorrer al robot la fila 17 limpiando solo las baldosas impares. El recorrido termina en la columna 39.
+Escriba un algoritmo que permita recorrer al robot la fila 17 limpiando completamente solo las baldosas de columnas impares. Como se desconoce el área a limpiar, el recorrido termina cuando tenga enfrente una pared.
 
-## Ejercicio
+## Ejercicio 10
 
-Escriba un algoritmo que recorra la quinta fila pero limpiando solo las columnas pares que sean necesarias limpiar.
+Escriba un algoritmo que recorra la quinta fila pero limpiando completamente solo las columnas pares que sean necesarias limpiar. Como se desconoce el área a limpiar, el recorrido termina cuando tenga enfrente una pared.
 
-## Ejercicio 
+## Ejercicio 11
 
-Escriba un algoritmo que permita al robot recorrer el perímetro del área de la que se desconoce el tamaño realizando la limpieza.
+Escriba un algoritmo que permita al robot recorrer el perímetro del área de la que se desconoce el tamaño realizando la limpieza completamente.
 
 ![](img/pr1/aspiradora_perimetro.png)
 
