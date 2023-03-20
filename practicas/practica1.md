@@ -3,7 +3,7 @@
 
 > Esta práctica tiene como objetivo guiar al alumnx en los conceptos teóricos de algoritmos.
 
-Para la realización de esta práctica, imaginemos que estamos escribiendo el software de un robot-aspiradora que debe limpiar un área. Imaginemos un área compuesto por filas (horizontales) y columnas (verticales). 
+Para la realización de esta práctica, imaginemos que estamos escribiendo el software de un robot-aspiradora que debe limpiar un área. Imaginemos un área compuesto por *filas* (horizontales) y *columnas* (verticales). A cada cuadrante llamaremos *baldosas*.
 
 ##### Las instrucciones que entiende el robot son las siguientes:
 
@@ -64,6 +64,8 @@ Escribir un algoritmo que solo limpie la segunda fila y vuelva a la posición or
 
 ![](img/pr1/aspiradora_2da_fila.png)
 
+:page_facing_up: [Ejercicio resuelto](https://github.com/kity-linuxero/practicas_23/blob/main/practicas/ej_resueltos/Pr1.md#ejercicio-2)
+
 ## Ejercicio 3
 
 Escribir un algoritmo que permita al robot realizar la limpieza con el siguiente recorrido.
@@ -76,11 +78,14 @@ Escribir un algoritmo que permita al robot realizar la limpieza con el siguiente
 
 ![](img/pr1/aspiradora_ej3.png)
 
+:page_facing_up: [Ejercicio resuelto](https://github.com/kity-linuxero/practicas_23/blob/main/practicas/ej_resueltos/Pr1.md#ejercicio-4)
+
 ## Ejercicio 5
 
 Escribir un algoritmo que permita al robot limpiar completamente un área de `40x40` usando el recorrido del ejercicio 3.
 
-![](img/pr1/aspiradora_big.png)
+_La imágen es ilustrativa_.
+![Imagen ilustrativa](img/pr1/aspiradora_big.png)
 
 ## Ejercicio 6
 
@@ -93,6 +98,8 @@ Escriba un algoritmo que permita al robot limpiar un área de `40x40`, pero sola
 - :bulb: Puede ser útil utilizar <a href="https://programacion.concristian.com.ar/clase1.html#/condicionales_negativas" target="_blank">condiciones negativas</a>
 
 ![](img/pr1/aspiradora_random.png)
+
+:page_facing_up: [Ejercicio resuelto](https://github.com/kity-linuxero/practicas_23/blob/main/practicas/ej_resueltos/Pr1.md#ejercicio-7)
 
 
 ## Ejercicio 8
