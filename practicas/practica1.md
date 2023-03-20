@@ -85,6 +85,7 @@ Escribir un algoritmo que permita al robot realizar la limpieza con el siguiente
 Escribir un algoritmo que permita al robot limpiar completamente un área de `40x40` usando el recorrido del ejercicio 3.
 
 _La imágen es ilustrativa_.
+
 ![Imagen ilustrativa](img/pr1/aspiradora_big.png)
 
 ## Ejercicio 6
