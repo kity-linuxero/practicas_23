@@ -123,6 +123,66 @@ Escriba un algoritmo que permita al robot recorrer el perímetro del área de la
 ![](img/pr1/aspiradora_perimetro.png)
 
 
+# Ejercicios adicionales
+
+Para los siguientes ejercicios tenga en cuenta que:
+- Las baldosas pueden no quedar completamente limpiar con una sola pasada.
+- El área es de `40x40`.
+- `bateria_baja`: El robot consulta a su sensor si queda poca energía. (`verdadero`/`falso`).
+- `pos(X,Y)`: Posiciona al robot en una ubicación señalada por X e Y. Por ejemplo:
+    - `pos(4,5)`: Ubicará al robot en la posición fila: 4, columna 5.
+    - `pos(1,1)`: Ubica al robot en la ubicación inicial.
+    - `pos(40,40)`: Ubica al robot en la última baldosa.
+    
+     _Cuando se realiza una instrucción de posicionamiento `pos(X,Y)`, el robot se dirigirá a la ubicación deseada y durante el recorrido, **no** hace otra cosa que solo moverse (no puede limpiar ni consultar sus sensores)._
+
+## Ejercicio 12
+
+Escriba un programa que permita al robot limpiar la ubicación `(4,38)`. Si la ubicación estaba limpia debe informar _"Se realizó la limpieza"_. Si no requería limpieza, debe informar _"No fue necesaria la limpieza."_
+
+## Ejercicio 13
+Escriba un programa que permita al robot recorrer limpiando las baldosas en fila `30` desde la columna `8` hasta la columna `23`.
+Para ahorrar energía, no limpia si la baldosa se encuentra limpia.
+
+## Ejercicio 14
+Escriba un programa que permita al robot recorrer la columna `23` limpiando las baldosas a su paso hasta que queden limpias. Si en algún momento se queda con poca batería, debe seguir recorriendo la columna pero sin limpiar.
+
+## Ejercicio 15
+Escriba un programa que recorra la fila `39` buscando una baldosa que falta limpiar que seguro existe.
+Una vez que la encuentre debe limpiarla e informar que se ha limpiado.
+
+## Ejercicio 16
+Escriba un programa que permita al robot limpiar la baldosa `(40,40)` hasta que se quede con batería baja. Cuando eso ocurra debe dirigirse a la posición `(1,1)`.
+
+## Ejercicio 17
+
+Escriba un programa que permita recorrer el perímetro del área de `40x40` limpiando cada baldosa a su paso hasta que se quede con poca batería. Cuando se quede con poca batería, debe interrumpir inmediatamente la limpieza y dirigirse a la posición `(1,1)`.
+
+## Ejercicio 18
+Escriba un programa que recorra toda la primer fila verificando que está limpia.
+Si encuentra una baldosa sucia debe informar _"El piso necesita limpiarse"_ y terminar el recorrido. Si termina el recorrido y no encuentra ninguna baldosa sucia debe informar _"Se encuentra todo limpio"_
+
+Pista:
+- Para este ejercicio puede ser útil usar dos condiciones juntas en una instrucción. Por ejemplo
+```
+si (cond1 Y cond2) 
+    hacer algo
+```
+En ese caso, la instrucción `si` evaluará que **se cumplan ambas condiciones** para entrar en su bloque de instrucciones.
+
+Puede usar también negativas, por ejemplo
+
+```
+si (cond1 Y NO cond2)
+    hacer algo
+```
+
+```
+si (NO cond1 y NO cond2)
+    hacer algo
+```
+
+
 
 
 
