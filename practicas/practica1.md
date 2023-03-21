@@ -139,7 +139,7 @@ Para los siguientes ejercicios tenga en cuenta que:
 
 ## Ejercicio 12
 
-Escriba un programa que permita al robot limpiar la ubicación `(4,38)`. Si la ubicación estaba limpia debe informar _"Se realizó la limpieza"_. Si no requería limpieza, debe informar _"No fue necesaria la limpieza."_
+Escriba un programa que permita al robot limpiar la ubicación `(4,38)`. Si la ubicación requería limpieza debe informar _"Se realizó la limpieza"_. Si no requería limpieza, debe informar _"No fue necesaria la limpieza."_
 
 ## Ejercicio 13
 Escriba un programa que permita al robot recorrer limpiando las baldosas en fila `30` desde la columna `8` hasta la columna `23`.
@@ -159,7 +159,7 @@ Escriba un programa que permita al robot limpiar la baldosa `(40,40)` hasta que 
 
 Escriba un programa que permita recorrer el perímetro del área de `40x40` limpiando cada baldosa a su paso hasta que se quede con poca batería. Cuando se quede con poca batería, debe interrumpir inmediatamente la limpieza y dirigirse a la posición `(1,1)`.
 
-## Ejercicio 18
+## Ejercicio 18 (extra)
 Escriba un programa que recorra toda la primer fila verificando que está limpia.
 Si encuentra una baldosa sucia debe informar _"El piso necesita limpiarse"_ y terminar el recorrido. Si termina el recorrido y no encuentra ninguna baldosa sucia debe informar _"Se encuentra todo limpio"_
 
