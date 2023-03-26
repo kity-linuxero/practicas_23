@@ -109,9 +109,13 @@ Escriba un algoritmo que permita al robot limpiar un área de `40x40`, pero sola
 
 Escriba un algoritmo que permita recorrer las primeras 5 filas limpiando completamente todas las baldosas de las filas. El área es de `40x40`.
 
+:page_facing_up: [Ejercicio resuelto](https://github.com/kity-linuxero/practicas_23/blob/main/practicas/ej_resueltos/Pr1.md#ejercicio-8)
+
 ## Ejercicio 9
 
 Escriba un algoritmo que permita recorrer al robot la fila 17 limpiando completamente solo las baldosas de columnas impares. Como se desconoce el área a limpiar, el recorrido termina cuando tenga enfrente una pared.
+
+:page_facing_up: [Ejercicio resuelto](https://github.com/kity-linuxero/practicas_23/blob/main/practicas/ej_resueltos/Pr1.md#ejercicio-9)
 
 ## Ejercicio 10
 
@@ -122,6 +126,8 @@ Escriba un algoritmo que recorra la quinta fila pero limpiando completamente sol
 Escriba un algoritmo que permita al robot recorrer el perímetro del área de la que se desconoce el tamaño realizando la limpieza completamente.
 
 ![](img/pr1/aspiradora_perimetro.png)
+
+:page_facing_up: [Ejercicio resuelto](https://github.com/kity-linuxero/practicas_23/blob/main/practicas/ej_resueltos/Pr1.md#ejercicio-11)
 
 
 # Ejercicios adicionales
@@ -141,12 +147,18 @@ Para los siguientes ejercicios tenga en cuenta que:
 
 Escriba un programa que permita al robot limpiar la ubicación `(4,38)`. Si la ubicación requería limpieza debe informar _"Se realizó la limpieza"_. Si no requería limpieza, debe informar _"No fue necesaria la limpieza."_
 
+:page_facing_up: [Ejercicio resuelto](https://github.com/kity-linuxero/practicas_23/blob/main/practicas/ej_resueltos/Pr1.md#ejercicio-12)
+
 ## Ejercicio 13
 Escriba un programa que permita al robot recorrer limpiando las baldosas en fila `30` desde la columna `8` hasta la columna `23`.
 Para ahorrar energía, no limpia si la baldosa se encuentra limpia.
 
+:page_facing_up: [Ejercicio resuelto](https://github.com/kity-linuxero/practicas_23/blob/main/practicas/ej_resueltos/Pr1.md#ejercicio-13)
+
 ## Ejercicio 14
 Escriba un programa que permita al robot recorrer la columna `23` limpiando las baldosas a su paso hasta que queden limpias. Si en algún momento se queda con poca batería, debe seguir recorriendo la columna pero sin limpiar.
+
+:page_facing_up: [Ejercicio resuelto](https://github.com/kity-linuxero/practicas_23/blob/main/practicas/ej_resueltos/Pr1.md#ejercicio-14)
 
 ## Ejercicio 15
 Escriba un programa que recorra la fila `39` buscando una baldosa que falta limpiar que seguro existe.
