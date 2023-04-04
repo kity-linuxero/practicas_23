@@ -103,12 +103,12 @@ La baldosa (2,34) está sucia
 Modifique el ejercicio anterior para tener en cuenta el nivel de batería. En caso que se quede con poca batería debe informar `"Se cancela el recorrido por poca batería"`.
 
 ## Ejercicio 8
-Escriba un programa que permita recorrer el área hasta llegar a una baldosa sucia o mojada. En ese momento debe interrumpir el recorrido e informar donde se quedó ubicado.
+Escriba un programa que permita recorrer la fila 32 hasta llegar a una baldosa sucia o mojada. En ese momento debe interrumpir el recorrido e informar donde se quedó ubicado.
 
 >Precond: Seguro existe alguna baldosa sucia o mojada.
 
 ## Ejercicio 9
-Escriba un programa que permita recorrer el área hasta llegar a una baldosa sucia o mojada. En ese momento debe interrumpir el recorrido e informar donde se quedó ubicado. 
+Escriba un programa que permita recorrer la fila 32 hasta llegar a una baldosa sucia o mojada. En ese momento debe interrumpir el recorrido e informar donde se quedó ubicado. 
 
 >Precond: Puede no haber una baldosa que esté mojada o sucia.
 
