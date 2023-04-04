@@ -140,7 +140,7 @@ Elija el modo de recorrido que mejor le parezca.
 ## Ejercicio 13
 Escriba un programa que permita al robot recorrer el área buscando baldosas sucias e informe el porcentaje de baldosas que están sucias respecto al total de baldosas. El área es de `40x40`.
 
-Formula porcentaje: $$ x = { \ Sucias \over Total Baldosas} * 100 $$ 
+Formula porcentaje: $$x={Sucias \over TotalBaldosas}*100$$ 
 
 
 >Precond: NO hay baldosas mojadas en el área.
