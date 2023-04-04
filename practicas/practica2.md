@@ -108,11 +108,9 @@ Escriba un programa que permita recorrer el área hasta llegar a una baldosa suc
 >Precond: Seguro existe alguna baldosa sucia o mojada.
 
 ## Ejercicio 9
-Escriba un programa que permita recorrer el área hasta llegar a una baldosa sucia o mojada. En ese momento debe interrumpir el recorrido e informar donde se quedó ubicado. La baldosa seguro existe.
+Escriba un programa que permita recorrer el área hasta llegar a una baldosa sucia o mojada. En ese momento debe interrumpir el recorrido e informar donde se quedó ubicado. 
 
 >Precond: Puede no haber una baldosa que esté mojada o sucia.
-
-
 
 
 ## Ejercicio 10
