@@ -10,6 +10,7 @@ Escribir un algoritmo que solo limpie la segunda fila y vuelva a la posición or
 
 ![](../img/pr1/aspiradora_2da_fila.png)
 
+##### Resolución
 ```
 programa ej_2
   imprimir ("Iniciar programa")
@@ -42,7 +43,7 @@ Escribir un algoritmo que permita al robot realizar la limpieza con el siguiente
 
 ![](../img/pr1/aspiradora_ej3.png)
 
-
+##### Resolución
 ```
 programa ej_4
   imprimir ("Comienza recorrido")
@@ -77,6 +78,7 @@ Escriba un algoritmo que permita al robot limpiar un área de `40x40`, pero sola
 
 ![](../img/pr1/aspiradora_random.png)
 
+##### Resolución
 ```
 programa ej_7
    imprimir("Iniciar limpieza")
@@ -110,6 +112,7 @@ programa ej_7
 
 Escriba un algoritmo que permita recorrer las primeras 5 filas limpiando completamente todas las baldosas de las filas. El área es de `40x40`.
 
+##### Resolución
 ```
 programa  ejercicio8
    imprimir("Se inicia la limpieza")
@@ -151,6 +154,8 @@ fin_programa
 
 Escriba un algoritmo que permita recorrer al robot la fila 17 limpiando completamente solo las baldosas de columnas impares. Como se desconoce el área a limpiar, el recorrido termina cuando tenga enfrente una pared.
 
+##### Resolución
+
 ```
 programa pr1_ej_9
 	imprimir("Los impares de la 17")
@@ -175,6 +180,8 @@ Escriba un algoritmo que permita al robot recorrer el perímetro del área de la
 
 ![](../img/pr1/aspiradora_perimetro.png)
 
+##### Resolución
+
 ```
 programa ej_11
 		
@@ -193,6 +200,8 @@ programa ej_11
 ## Ejercicio 12
 
 Escriba un programa que permita al robot limpiar la ubicación `(4,38)`. Si la ubicación requería limpieza debe informar _"Se realizó la limpieza"_. Si no requería limpieza, debe informar _"No fue necesaria la limpieza."_
+
+##### Resolución
 
 ```
 programa ej_12
@@ -221,6 +230,8 @@ programa ej_12_v2
 Escriba un programa que permita al robot recorrer limpiando las baldosas en fila `30` desde la columna `8` hasta la columna `23`.
 Para ahorrar energía, no limpia si la baldosa se encuentra limpia.
 
+##### Resolución
+
 ```
 programa ej_13
 	pos(30,8)
@@ -233,6 +244,8 @@ programa ej_13
 ## Ejercicio 14
 
 Escriba un programa que permita al robot recorrer la columna `23` limpiando las baldosas a su paso hasta que queden limpias. Si en algún momento se queda con poca batería, debe seguir recorriendo la columna pero sin limpiar.
+
+##### Resolución
 
 ```
 programa ej_14
@@ -262,3 +275,61 @@ programa ej_14_v2
 	  si NO (pared_delante)
 	     avanzar
 ```
+
+## Ejercicio 17
+
+Escriba un programa que permita recorrer el perímetro del área de `40x40` limpiando cada baldosa a su paso hasta que se quede con poca batería. Cuando se quede con poca batería, debe interrumpir inmediatamente la limpieza y dirigirse a la posición `(1,1)`.
+
+##### Resolución
+```
+programa pr1_ej17
+	
+	mientras NO (bateria_baja) 
+		mientras NO (hay_pared) Y NO (bateria_baja)
+			mientras NO (esta_limpio) Y NO (bateria_baja)
+				limpiar
+			si NO (bateria_baja)
+				avanzar
+		si NO (bateria_baja)
+			girar_a_derecha
+	
+	pos(1,1)
+```
+### Otra versión
+
+```
+programa pr1_ej17_v2
+
+	mientras NO (bateria_baja)
+	
+		si NO (esta_limpio)
+			limpiar
+		si NO (bateria_baja)
+			si (hay_pared)
+				girar_a_derecha
+			si (esta_limpio)
+				si NO (bateria_baja)
+					avanzar
+
+	pos(1,1)	
+```
+
+## Ejercicio 18
+Escriba un programa que recorra toda la primer fila verificando que está limpia.
+Si encuentra una baldosa sucia debe informar _"El piso necesita limpiarse"_ y terminar el recorrido. Si termina el recorrido y no encuentra ninguna baldosa sucia debe informar _"Se encuentra todo limpio"_
+
+##### Resolución
+
+```
+programa pr1_ej18_v1
+
+	mientras NO (hay_pared) Y (esta_limpio)
+		avanzar
+	si (hay_pared)
+		informar("Está todo limpio")
+	sino
+		informar("El piso necesita limpiarse")
+```
+-----
+
+<img src="img/foot_logos.png" alt="Descripción de la imagen" style="width:100%; filter: grayscale(100%); opacity: 90%">

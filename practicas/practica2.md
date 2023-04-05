@@ -88,6 +88,8 @@ Debe informar si las 20 limpiezas disponibles fueron suficientes para limpiar to
 
 >Precond: Se sabe que no hay baldosas mojadas.
 
+:page_facing_up: [Ejercicio resuelto](https://github.com/kity-linuxero/practicas_23/blob/main/practicas/ej_resueltos/Pr2.md#ejercicio-5)
+
 ## Ejercicio 6
 Escriba un programa que permita al robot recorrer la columna 2 informando a su paso las baldosas mojadas y las sucias.
 No debe secar ni limpiar.
@@ -98,6 +100,8 @@ La baldosa (2,10) está mojada
 La baldosa (2,30) está mojada
 La baldosa (2,34) está sucia
 ```
+
+:page_facing_up: [Ejercicio resuelto](https://github.com/kity-linuxero/practicas_23/blob/main/practicas/ej_resueltos/Pr2.md#ejercicio-6)
 
 ## Ejercicio 7
 Modifique el ejercicio anterior para tener en cuenta el nivel de batería. En caso que se quede con poca batería debe informar `"Se cancela el recorrido por poca batería"`.
@@ -110,7 +114,7 @@ Escriba un programa que permita recorrer la fila 32 hasta llegar a una baldosa s
 ## Ejercicio 9
 Escriba un programa que permita recorrer la fila 32 hasta llegar a una baldosa sucia o mojada. En ese momento debe interrumpir el recorrido e informar donde se quedó ubicado. 
 
->Precond: Puede no haber una baldosa que esté mojada o sucia.
+>Precond: Puede no haber una baldosPr1 copya que esté mojada o sucia.
 
 
 ## Ejercicio 10
@@ -122,7 +126,7 @@ Escriba un programa que permita al robot limpiar completamente la fila 34. Al fi
 Escriba un programa que permita recorrer toda el área contabilizando la cantidad de baldosas sucias que hay.
 El recorrido debe hacerlo **sin realizar giros** (ni a derecha ni izquierda).
 
-# Ejercicio 12
+## Ejercicio 12
 Escriba un programa que permita recorrer toda el área de `40x40` informando el estado de cada baldosa. No se debe realizar limpieza, solo informar.
 
 ```

@@ -171,6 +171,8 @@ Escriba un programa que permita al robot limpiar la baldosa `(40,40)` hasta que 
 
 Escriba un programa que permita recorrer el perímetro del área de `40x40` limpiando cada baldosa a su paso hasta que se quede con poca batería. Cuando se quede con poca batería, debe interrumpir inmediatamente la limpieza y dirigirse a la posición `(1,1)`.
 
+:page_facing_up: [Ejercicio resuelto](https://github.com/kity-linuxero/practicas_23/blob/main/practicas/ej_resueltos/Pr2.md#ejercicio-17)
+
 ## Ejercicio 18 (extra)
 Escriba un programa que recorra toda la primer fila verificando que está limpia.
 Si encuentra una baldosa sucia debe informar _"El piso necesita limpiarse"_ y terminar el recorrido. Si termina el recorrido y no encuentra ninguna baldosa sucia debe informar _"Se encuentra todo limpio"_
@@ -194,6 +196,8 @@ si (cond1 Y NO cond2)
 si (NO cond1 y NO cond2)
     hacer algo
 ```
+
+:page_facing_up: [Ejercicio resuelto](https://github.com/kity-linuxero/practicas_23/blob/main/practicas/ej_resueltos/Pr2.md#ejercicio-18)
 
 
 
