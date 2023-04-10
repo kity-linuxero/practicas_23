@@ -24,6 +24,11 @@ Las instrucciones que entiende el robot son las siguientes:
 - `secar`: Seca el lugar donde se encuentra parado.
 - `posX`: Nos dirá el número de **columna** donde se encuentra ubicado. Es un número del 1 al 40.
 - `posY`: Nos dirá el número de **fila** donde se encuentra ubicado. Es un número del 1 al 40.
+- `input()`: Espera que se ingrese un valor por teclado y lo almacenará en una variable.
+```
+    # Leé un dato de teclado y lo almacena en la variable "valor"
+    valor = input()
+```
 - Puede usar todas las <a href="https://programacion.concristian.com.ar/clase2.html#/numericos_aritmetica" target="_blank">operaciones aritméticas</a> vistas en las clases que considere necesarias.
 - Puede usar todos los <a href="https://programacion.concristian.com.ar/clase2.html#/numericos_comparacion" target="_blank">operadores de comparación</a> vistas en las clases que considere necesarias.
 
@@ -166,15 +171,54 @@ Escriba un programa que permita realizar una limpieza completa de área de `40x4
 
 >Precond: La batería alcanza para la limpieza total
 
+## Ejercicio 17
+Escriba un programa que ubique al robot en la posición `(x,1)`. El valor x debe ser ingresado por el usuario.
+Debe informar el valor ingresado y posteriormente ubicar al robot.
 
-## Ejercicio 17 (EXTRA)
-Modifique el programa anterior para además informar lo siguiente:
+Ejemplo:
+```
+Ingrese un valor para ubicar al robot:
+29 # Valor ingresado por el usuario por teclado
+
+El robot se ha ubicado en la posición (29,1)
+```
+
+>Precond: Se asume que se ingresan datos válidos
+
+
+## Ejercicio 18
+Escriba un programa como el ejercicio anterior, pero que ahora, solicite al usuario los valores `x` e `y` para ubicar al robot en el área indicada `(x,y)`.
+
+>Precond: Se asume que se ingresan datos válidos
+
+## Ejercicio 19
+Modifique el programa anterior para que verifique que realmente el usuario haya ingresado un número de posición válido entre 1 y 40 para ubicar al robot tanto en `x` como en `y`.
+
+En caso que el número sea inválido, debe solicitarle que lo ingrese nuevamente hasta que el número sea una posición válida.
+
+Ejemplo:
+```
+Ingrese un valor para ubicar al robot en x:
+29
+
+Ingrese un valor para ubicar al robot en y:
+49
+¡Valor inválido!
+
+Ingrese un valor para ubicar al robot en y:
+39
+
+El robot se ha ubicado en la posición (29,39)
+```
+
+
+## Ejercicio 20 (EXTRA)
+Modifique el programa del [ejercicio 16](#ejercicio-16) para además informar lo siguiente:
 
 - La baldosa que mas costó limpiar (la que llevó mayor cantidad de limpiezas).
 
 Pista:
 - Imaginar un mecanismo para llevar la cantidad mayor de limpiezas y que se compare cuando se realice una nueva limpieza y actualizar el valor si es necesario.
-
 
 
 -----
