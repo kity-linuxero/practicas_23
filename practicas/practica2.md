@@ -119,7 +119,7 @@ Escriba un programa que permita recorrer la fila 32 hasta llegar a una baldosa s
 ## Ejercicio 9
 Escriba un programa que permita recorrer la fila 32 hasta llegar a una baldosa sucia o mojada. En ese momento debe interrumpir el recorrido e informar donde se quedó ubicado. 
 
->Precond: Puede no haber una baldosPr1 copya que esté mojada o sucia.
+>Precond: Puede no haber una baldosa que esté mojada o sucia.
 
 
 ## Ejercicio 10
@@ -127,9 +127,13 @@ Escriba un programa que permita al robot limpiar completamente la fila 34. Al fi
 
 >Precond: NO hay baldosas mojadas en la fila 34.
 
+:page_facing_up: [Ejercicio resuelto](https://github.com/kity-linuxero/practicas_23/blob/main/practicas/ej_resueltos/Pr2.md#ejercicio-10)
+
 ## Ejercicio 11
 Escriba un programa que permita recorrer toda el área contabilizando la cantidad de baldosas sucias que hay.
 El recorrido debe hacerlo **sin realizar giros** (ni a derecha ni izquierda).
+
+:page_facing_up: [Ejercicio resuelto](https://github.com/kity-linuxero/practicas_23/blob/main/practicas/ej_resueltos/Pr2.md#ejercicio-11)
 
 ## Ejercicio 12
 Escriba un programa que permita recorrer toda el área de `40x40` informando el estado de cada baldosa. No se debe realizar limpieza, solo informar.
@@ -154,6 +158,9 @@ Formula porcentaje: $$x={Sucias \over TotalBaldosas}*100$$
 
 >Precond: NO hay baldosas mojadas en el área.
 
+:page_facing_up: [Ejercicio resuelto](https://github.com/kity-linuxero/practicas_23/blob/main/practicas/ej_resueltos/Pr2.md#ejercicio-13)
+
+
 ## Ejercicio 14
 
 Escriba un programa que recorra la fila 29 buscando _exactamente_ 2 baldosas sucias y 3 mojadas que seguro existen. Deben informar a qué columna pertenece la última baldosa sucia o mojada encontrada.
@@ -170,6 +177,8 @@ Escriba un programa que permita realizar una limpieza completa de área de `40x4
 - Cantidad total de limpiezas necesarias
 
 >Precond: La batería alcanza para la limpieza total
+
+:page_facing_up: [Ejercicio resuelto](https://github.com/kity-linuxero/practicas_23/blob/main/practicas/ej_resueltos/Pr2.md#ejercicio-16)
 
 ## Ejercicio 17
 Escriba un programa que ubique al robot en la posición `(x,1)`. El valor x debe ser ingresado por el usuario.
