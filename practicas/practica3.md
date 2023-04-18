@@ -308,3 +308,6 @@ No hay suficiente saldo para completar la operación
 
 El monto en la cuenta está previamente cargado (no se ingresa por teclado).
 
+-----
+
+<img src="img/foot_logos.png" alt="Descripción de la imagen" style="width:100%; filter: grayscale(100%); opacity: 90%">
