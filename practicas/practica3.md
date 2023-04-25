@@ -308,6 +308,10 @@ No hay suficiente saldo para completar la operación
 
 El monto en la cuenta está previamente cargado (no se ingresa por teclado).
 
+### Ejercicios resueltos en clase
+
+En [este link](https://github.com/kity-linuxero/practicas_23/tree/main/practicas/ej_resueltos/pr3) podemos ver los ejercicios hechos en clase.
+
 -----
 
 <img src="img/foot_logos.png" alt="Descripción de la imagen" style="width:100%; filter: grayscale(100%); opacity: 90%">
