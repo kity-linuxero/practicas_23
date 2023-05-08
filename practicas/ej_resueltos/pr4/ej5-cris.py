@@ -5,34 +5,35 @@ from random import choice
 opciones = ["piedra", "papel", "tijera"]
 
 # Opciones válidas para elegir del usuario
-validas = ['1','2','3']
-
-# Como estaba aburrido le puse emojis :D
-emojis = ['🪨', '📃', '✂️','🆚']
+validas = ['1','2','3','n']
 
 # Resultados
 victorias = derrotas = empates = 0
 
 while (True):
     # Le pido al player que elija una opción
-    player = input(f"---------\nElija una opción.\n1) Piedra\n2) Papel\n3) Tijera\n\nSu opción: ")
+    player = input(f"""Elija una opción.
+1) Piedra
+2) Papel
+3) Tijera
+n) Salir
+    
+    Su opción: """).lower()
     
     # Para descartar opciones inválidas
-    while not player in validas:   
-        player = input("Elija una opción.\n1) Piedra\n2) Papel\n3) Tijera\n\nSu opción: ")
+    if not player in validas:   
+        print("¡Opción inválida!")
+        continue
 
-    # Se tiene en formato número para poder elejir un emoji
-    pl_n = int(player)-1
+    # El usuario elige salir del juego
+    if player == 'n':
+        break
 
     # Se convierte la opción del player a una opción válida en string
-    pl = opciones[pl_n] 
+    pl = opciones[int(player)-1] 
 
     # Elije la computadora
     pc = choice(opciones) # Opción en texto
-    pc_n = opciones.index(pc) # En número
-
-    # Acá se imprimen los emojis 😁
-    print(f"Resultado: {emojis[pl_n]} {emojis[-1]} {emojis[pc_n]}\n")
 
     # Determinar si el player ganó
     gano = (pl == 'piedra' and pc == 'tijera') or (pl == 'papel' and pc == 'piedra') or (pl == 'tijera' and pc == 'papel')
@@ -47,9 +48,16 @@ while (True):
         print (f"¡Perdiste! Yo elegí {pc}\n")
         derrotas+=1
 
-    seguir = input("¿Querés seguir jugando?\n(n para salir) ")
-    if seguir.lower() == 'n':
-        break
-
 # Informo resultados
-print(f"\n¡Fin del juego!.\nResumen:\n\tVictorias: {victorias}\n\tDerrotas: {derrotas}\n\tEmpates: {empates}\n\tTotal de partidas: {victorias+derrotas+empates}\n-------------\nGracias por jugar.\n")
+print(f"""
+----------------
+¡Fin del juego!.
+Resumen:
+\tVictorias: {victorias}
+\tDerrotas: {derrotas}
+\tEmpates: {empates}
+\tTotal de partidas: {victorias+derrotas+empates}
+
+Gracias por jugar.
+----------------
+""")
