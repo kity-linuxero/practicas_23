@@ -32,7 +32,7 @@ Actualice el valor de la divisa respecto al peso argentino. Los símbolos de la 
 
 
 
-## Ejercicio 4
+## Ejercicio 3
 Se tiene el siguiente diccionario anidado:
 ```python
 diccionario = {
@@ -50,21 +50,21 @@ diccionario = {
 
 Desarrolle un programa para que imprima la nota de geografía.
 
-## Ejercicio 5
+## Ejercicio 4
 
 Desarrolle una programa que dado el diccionario anterior, actualice las notas de matemática y geografía para que sean 8 y 7 respectivamente.
 
-## Ejercicio 6
+## Ejercicio 5
 
 Desarrolle una programa que dado el diccionario anterior actualice la clave `geografia` por `historia` e imprima el diccionario final.
 
-## Ejercicio
+## Ejercicio 6
 
 Se tienen a los siguientes alumnos `('Ana', 'Alejo', 'Valentina', 'Fausto', 'Clara', 'Manuel')`.
 
 Cree un programa que, pida por cada alumno la nota obtenida en un examen y la guarde en un diccionario donde la clave será el nombre del alumno.
 
-## Ejercicio
+## Ejercicio 7
 
 Dado el siguiente diccionario, convierta sus claves en una lista llamada `claves` y sus valores en otra lista llamada `valores`.
 
@@ -78,7 +78,7 @@ Dado el siguiente diccionario, convierta sus claves en una lista llamada `claves
 }
 ```
 
-## Ejercicio 7
+## Ejercicio 8
 
 Desarrolle un programa que, dado el siguiente diccionario, devuelva el día con menor temperatura.
 
@@ -98,7 +98,7 @@ temp = {
 
 [Pista](https://www.geeksforgeeks.org/python-get-key-from-value-in-dictionary/)
 
-## Ejercicio 8
+## Ejercicio 9
 
 Contar letras: Crea un programa que reciba por el usuario una palabra y devuelva un diccionario con cada letra como clave y el número de veces que aparece como valor.
 
@@ -111,7 +111,7 @@ Escriba una palabra: palabra
 ```
 
 
-## Ejercicio 9
+## Ejercicio 10
 
 Se tiene el siguiente diccionario:
 `{'Mayonesa':'140,50', 'Cerveza': 130, 'Agua mineral': 110.15, Servilleta: 65.20}`.
