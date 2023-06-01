@@ -70,13 +70,13 @@ Reescribir el programa hecho en la práctica 4 del juego de piedra, papel y tije
 
 Una sugerencia de módulos podría ser:
 
-`realizar_jugada()`: La computadora elige una opción.
-`tomar_jugada()`: Realiza la operación de tomar una jugada al usuario descartando los valores inválidos.
-`gano(user, pc)`: Retorna si la jugada del usuario enviada mediante el parámetro `user` le ganó la jugada de la pc enviada mediante el parámetro `pc`. El valor debe ser `True` o `False`
-`informar_victoria(user, pc)`: Imprime el texto correspondiente cuando un usuario gana.
-`informar_derrota(user, pc)`: Imprime el texto correspondiente cuando un usuario pierde.
-`informar_empate(user,pc)`: Imprime el texto correspondiente cuando hay empate.
-`informar_fin_juego()`: Imprime el texto con las estadísticas de las partidas.
+- `realizar_jugada()`: La computadora elige una opción.
+- `tomar_jugada()`: Realiza la operación de tomar una jugada al usuario descartando los valores inválidos.
+- `gano(user, pc)`: Retorna si la jugada del usuario enviada mediante el parámetro `user` le ganó la jugada de la pc enviada mediante el parámetro `pc`. El valor debe ser `True` o `False`
+- `informar_victoria(user, pc)`: Imprime el texto correspondiente cuando un usuario gana.
+- `informar_derrota(user, pc)`: Imprime el texto correspondiente cuando un usuario pierde.
+- `informar_empate(user,pc)`: Imprime el texto correspondiente cuando hay empate.
+- `informar_fin_juego()`: Imprime el texto con las estadísticas de las partidas.
 
 ## Ejercicio 8
 
@@ -116,7 +116,6 @@ Utilice las estructuras de datos vistas hasta el momento que le pueda ayudar. Se
 Una sugerencia de módulos puede ser:
 - `tomar_participantes()`: Toma los participantes. Devuelve una lista con los participantes.
 - `sortear(lista_participantes)`: Realiza el sorteo.
-- 
 
 # Ejercicio 10
 
