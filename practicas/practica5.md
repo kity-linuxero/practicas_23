@@ -118,7 +118,7 @@ Se tiene el siguiente diccionario:
 Escriba un programa que permita simular una compra donde se van ingresando productos y cantidad. Los valores se van sumando para tener el total para cobrar al finalizar la compra.
 La compra termina cuando el usuario ingresa `fin` donde se deberá finalizar la compra e informar el monto total.
 También debe ser posible saber el parcial de una compra cuando se ingresa `parcial` donde deberá informar el monto gastado hasta el momento pero sin finalizar la compra:
-A continuación se muestra un ejemplo de ejecucición del programa:
+A continuación se muestra un ejemplo de ejecución del programa:
 
 ```bash
 Ingrese producto: Mayonesa
