@@ -89,6 +89,7 @@ Escriba un programa que permita elegir las parejas para el juego del "amigo invi
 Se debe tomar los nombres de las personas que van a jugar. La entrada de datos puede terminar cuando se ingrese `fin` o `.` lo que usted considere.
 
 Una vez que se tienen todos los participantes, se debe elegir para cada participante otro participante que será su amigo invisible. Al finalizar la toma de datos, se debe realizar el sorteo e informar por pantalla.
+Si la cantidad de participantes es par, se debe agregar al `Profesor`.
 
 ```bash
 Ingrese nombre de participante: Carlos
@@ -106,8 +107,9 @@ Carlos -> Juanjo
 Lucia -> German
 Juanjo -> Pablo
 Nadia -> Carlos
+Profesor -> Nadia
 Pablo -> Lucia
-German -> Nadia
+German -> Profesor
 
 ```
 
