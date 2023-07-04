@@ -10,7 +10,7 @@ Con los conocimientos adquiridos en este curso, estamos en condiciones para pode
 ## Programa a desarrollar
 
 Desarrolle un programa que permita verificar si las palabras escritas en una sucesión de palabras se encuentran en un diccionario provisto de palabras en español.
-El diccionario es un archivo de texto (zipeado) con palabras. [Descargar el diccionario](https://programacion.concristian.com.ar/files/spanish.zip)
+El diccionario es un archivo de texto (zipeado) con palabras. Es importante aclarar que para usar el diccionario será necesario primero descomprimirlo. [Descargar el diccionario](https://programacion.concristian.com.ar/files/spanish.zip)
 
 ### Primera etapa
 
