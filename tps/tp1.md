@@ -11,7 +11,7 @@ Con los conocimientos adquiridos en este curso, estamos en condiciones para pode
 
 Desarrolle un programa que permita verificar si las palabras escritas en una sucesión de palabras se encuentran en un diccionario provisto de palabras en español.
 
-[Descargar el diccionario](https://programacion.concristian.com.ar/img/spanish.zip)
+[Descargar el diccionario](https://programacion.concristian.com.ar/files/spanish.zip)
 
 ### Primera etapa
 
