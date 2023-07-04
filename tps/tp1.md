@@ -30,6 +30,8 @@ Ha finalizado el ingreso de texto.
 El texto contiene 2 palabras que no están en el diccionario.
 ```
 
+#### Pistas:
+- Pase siempre a minúsculas las palabras para la comparación.
 
 ### Segunda etapa
 Modifique el programa de la primer etapa para que levante el texto desde un archivo en texto plano ya escrito, por ejemplo `carta.txt` y haga la comprobación.
@@ -108,6 +110,8 @@ Escriba nuevamente la palabra: finalizar
 
 El texto no contiene palabras que no están en el diccionario.
 ```
+
+
 
 ## Forma y fecha de entrega
 
