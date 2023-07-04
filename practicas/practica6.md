@@ -207,3 +207,7 @@ Sugerencias (Son opcionales pero le puede ayudar a resolver el ejercicio)
 - Escriba un módulo para barajar las cartas (mezclarlas)
 - El mazo de cartas puede ser una lista. Como no importa el palo podrá resolverlo con una lista de 40 elementos numéricos. Debe haber 4 elementos de cada número 1,2,3,4,5,6,7,10,11 y 12.
 - Vaya probando cada módulo a medida que los vaya escribiendo. Por ejemplo. Cuando haga el módulo para crear el mazo, imprima con `print()`el mazo creado para verificar que funciona. Una vez creado el mazo pruebe con `print()`si al mezclarlo, el mismo se hace correctamente.
+
+-----
+
+<img src="img/foot_logos.png" alt="Descripción de la imagen" style="width:100%; filter: grayscale(100%); opacity: 90%">

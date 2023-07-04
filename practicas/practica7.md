@@ -73,3 +73,7 @@ Ver que el contenido del archivo coincida con lo que ha ingresado por teclado.
 ## Ejercicio 10
 Escriba una función que modifique el contenido del archivo `mf1.dat` para que cada línea empiece con la letra en mayúscula.
 Una vez terminado, ejecute nuevamente el ejercicio n y vea como cambia el resultado.
+
+-----
+
+<img src="img/foot_logos.png" alt="Descripción de la imagen" style="width:100%; filter: grayscale(100%); opacity: 90%">

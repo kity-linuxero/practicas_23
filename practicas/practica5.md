@@ -143,3 +143,6 @@ Ingrese producto: fin
 ----------------------
 El total de su compra es: $ 746.70
 ```
+-----
+
+<img src="img/foot_logos.png" alt="Descripción de la imagen" style="width:100%; filter: grayscale(100%); opacity: 90%">
