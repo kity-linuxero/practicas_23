@@ -60,6 +60,7 @@ try:
         # Sentencias de código
 except FileNotFoundError:
     print(f"No se encuentra el archivo {filename}.")
+    exit()
 
 ```
 
