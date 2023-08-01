@@ -10,8 +10,7 @@ Con los conocimientos adquiridos en este curso, estamos en condiciones para pode
 ## Programa a desarrollar
 
 Desarrolle un programa que permita verificar si las palabras escritas en una sucesión de palabras se encuentran en un diccionario provisto de palabras en español.
-
-[Descargar el diccionario](https://programacion.concristian.com.ar/files/spanish.zip)
+El diccionario es un archivo de texto (zipeado) con palabras. Es importante aclarar que para usar el diccionario será necesario primero descomprimirlo. [Descargar el diccionario](https://programacion.concristian.com.ar/files/spanish.zip)
 
 ### Primera etapa
 
@@ -31,6 +30,8 @@ Ha finalizado el ingreso de texto.
 El texto contiene 2 palabras que no están en el diccionario.
 ```
 
+#### Pistas:
+- Pase siempre a minúsculas las palabras para la comparación.
 
 ### Segunda etapa
 Modifique el programa de la primer etapa para que levante el texto desde un archivo en texto plano ya escrito, por ejemplo `carta.txt` y haga la comprobación.
@@ -59,6 +60,7 @@ try:
         # Sentencias de código
 except FileNotFoundError:
     print(f"No se encuentra el archivo {filename}.")
+    exit()
 
 ```
 
@@ -109,6 +111,8 @@ Escriba nuevamente la palabra: finalizar
 
 El texto no contiene palabras que no están en el diccionario.
 ```
+
+
 
 ## Forma y fecha de entrega
 
