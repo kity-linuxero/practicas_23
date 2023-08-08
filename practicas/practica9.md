@@ -26,7 +26,7 @@ persona1.saludar()
 
 ## Ejercicio 1
 
-Crea una clase llamada `CuentaBancaria` que tenga los siguientes atributos: titular, saldo_inicial. Agrega métodos para depositar y retirar dinero, así como uno para consultar el saldo actual.
+Crea una clase llamada `CuentaBancaria` que tenga los siguientes atributos: titular, saldo_inicial. Desarrolle los siguientes métodos:
 
 - `depositar(monto)`: Se deposita el monto en la cuenta bancaria. Se avisa que se ha depositado y se actualiza el monto de la cuenta.
 - `retirar(monto)`: Se extrae el monto en la cuenta bancaria. Se avisa que se ha extraído y se actualiza el monto de la cuenta. En caso de no haber saldo suficiente para realizar la operación debe dar un aviso.
@@ -57,15 +57,15 @@ cuenta1.consultar_saldo()
 ## Ejercicio 2
 Desarrolle un programa que modele el comportamiento de un auto. El auto posee una marca, modelo y un kilometraje. El auto debe ser capaz de realizar recorridos en kilómetros a una velocidad. Por ejemplo debe entender el mensaje, `recorrido(velocidad, kilometros)`. A medida que el auto realiza los recorridos, el kilometraje va a ir aumentando (el kilometraje empieza en 0 en el momento de creación del objeto). También, el auto debe entender el mensaje `kilometraje()` que imprima en pantalla el kilometraje actual.
 
-## Ejercicio 2
+## Ejercicio 3
 Modifique el programa anterior para que el auto avise cada 10.000km que es necesario realizar el mantenimiento preventivo. Y debe imprimir el mensaje `Es necesario realizar el mantenimiento preventivo` antes de cada recorrido cuando hayan pasado la cantidad de kilómetros para realizar el mantenimiento. El auto debe entender el mensaje `realizar_mantenimiento()`. En el momento que se realiza el mantenimiento no debe volver avisar sobre el mantenimiento hasta los próximos 10.000kms.
 
-## Ejercicio 3
+## Ejercicio 4
 Realice un programa que procese a personas que van a ir ingresando en una sala. La personas deben ser modeladas en una clase `Persona` que contenga los datos nombre y edad (Ejercicio 0).
 
 Para cargar los nombres de persona, pida al usuario que ingrese nombre y edad de personas hasta que llegue la persona `@fin`. Las personas deben guardarse en una lista y al finalizar la carga de datos deben presentarse todas las personas.
 
-## Ejercicio 4
+## Ejercicio 5
 
 Implemente con _POO_ una _Pila_. La Pila consiste en una estructura de datos como las que vinimos usando como _Listas_ pero en este caso usaremos nuestra propia estructura con los propios mensajes y se comporta como una estructura _LIFO_ (Last In-First Out) es decir, el último elemento en ingresar es el primero en salir. 
 
@@ -85,20 +85,19 @@ Nuestra Pila deberá ser _genérica_ (puede guardar cualquier tipo de datos) y d
 - `cant_elementos()`: Retorna _la cantidad_ de elementos que hay en la pila.
 
 
-## Ejercicio 5
-Modifique su solución para el [ejercicio en clase](https://clases.concristian.com.ar/clasePoo.html#/ejercicio) de POO de la siguiente manera:
+## Ejercicio 6
 
 Modele con POO el comportamiento de unos encendedores.
 
 Los encendedores deben poder encenderse y apagarse según el combustible disponible y además deben poseer un número de fabricación. Dicho número se establece en el momento que de instancien los objetos _Encendedor_ y deben ser números consecutivos. Por ejemplo, el primer encendedor instanciado será el número de serie 1, el siguiente el 2 y así sucesivamente. Para hacer esto, tenga en cuenta algún mecanismo para que _la clase_ lleve la cuenta del número de fabricación para asignar a sus instancias.
 
-Los encendedores deben tener los siguientes metodos:
+Los encendedores además constan de un tanque de butano con una capacidad máxima de 10 encendidos. Cada vez que se enciende el encendedor, la capacidad disminuye en uno. Si el tanque está vacío no será posible encenderlo (`No hay suficiente combustible`).
+
+Los encendedores deben tener los siguientes métodos:
 - `encender()`: Enciende el encendedor si hay combustible disponible.
 - `apagar()`: Apaga el encendedor.
 - `recargar_combustible()`: Recarga el tanque de butano al 100%.
 - `num_serie()`: Informa el número de serie del encendedor.
-
-Los encendedores además constan de un tanque de butano con una capacidad máxima de 10 encendidos. Cada vez que se enciende el encendedor, la capacidad disminuye en uno. Si el tanque está vacío no será posible encenderlo (`No hay suficiente combustible`).
 
 El tanque de butano debe tener _sus propios_ atributos y métodos. Para eso defina la clase **Tanque_de_butano** con los siguientes métodos.
 - `recargar()`: Completa la capacidad de carga al 100%
@@ -110,7 +109,7 @@ Definir la clase Encendedor con los atributos y métodos que considere necesario
 
 Escribir un programa que cree un encendedor, lo encienda 11 veces y una vez agotado el tanque, lo recargue y lo encienda una vez mas.
 
-## Ejercicio 6
+## Ejercicio 7
 Escriba un programa que modele el comportamiento de una TV como se describe a continuación: Un TV tiene dos estados, _encendido_ y _apagado_, además tiene la información del _canal actual_ (un número entre 2 y 135) y el _volumen_ del audio (un número entre 0 a 10).
 
 El TV debe entender los mensajes:
@@ -146,7 +145,7 @@ Volumen: 1
 TV apagado
 ```
 
-## Ejercicio 7
+## Ejercicio 8
 
 Modifique el programa del punto anterior para que sea posible controlar el TV con un _control remoto_.
 
