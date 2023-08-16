@@ -120,6 +120,7 @@ La fecha final de entrega es el viernes 14 de julio de 2023 si no se llega a com
 
 La forma de entrega es comprimir el archivo.py y enviarlo como adjunto a _cgiambruni@gmail.com_.
 
+
 -----
 
 <img src="../practicas/img/foot_logos.png" alt="Descripción de la imagen" style="width:100%; filter: grayscale(100%); opacity: 90%">

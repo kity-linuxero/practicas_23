@@ -205,12 +205,7 @@ si (NO cond1 y NO cond2)
 
 
 
-
-
-##### Programación 2023 - Centro de Formación Profesional 410 La Plata - Compañero Omar Núñez
-
-
 -----
 
-![](img/foot_logos.png)
+<img src="img/foot_logos.png" alt="Descripción de la imagen" style="width:100%; filter: grayscale(100%); opacity: 90%">
 

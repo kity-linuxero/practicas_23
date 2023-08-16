@@ -164,5 +164,9 @@ El control remoto será otra clase, `ControlRemoto` que entenderá los siguiente
 
 Tenga en cuenta que los _métodos_ para interactuar con el televisor ya están implementados en la clase TV por el ejercicio anterior.
 
+-----
+
+<img src="img/foot_logos.png" alt="Descripción de la imagen" style="width:100%; filter: grayscale(100%); opacity: 90%">
+
 
 
