@@ -4,6 +4,7 @@ En este laboratorio usted aprenderá a:
 - Crear _objetos_ con formato fecha `datetime`
 - Comparar y calcular diferencia entre fechas y/o tiempo.
 
+
 # Fechas y unidades de tiempo.
 
 Por razones obvias, sabemos que es útil trabajar con fechas, horas y unidades de tiempo para registrar eventos. Todo acontece en un momento determinado que puede ser necesario tener un registro de cuando pasó.
