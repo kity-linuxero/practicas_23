@@ -164,7 +164,100 @@ El control remoto será otra clase, `ControlRemoto` que entenderá los siguiente
 
 Tenga en cuenta que los _métodos_ para interactuar con el televisor ya están implementados en la clase TV por el ejercicio anterior.
 
+
+# Ejercicios Extras
+
+## Ejercicio 9
+
+**Calculadora avanzada:** Desarrolle una clase que permita realizar las siguientes operaciones entre dos valores:
+- `sumar(a,b)`: Retorna la suma de dos valores
+- `restart(a,b)`: Retorna la resta de dos valores
+- `multiplicar(a,b)`: Retorna la multiplicación de dos valores
+- `dividir(a,b)`: Retorna la división de dos valores
+- `potencia(base, exponente)`: Retorna la potencia.
+- `raiz_cuadrada(a)`: Retorna la raíz cuadrada de un valor.
+
+
+## Ejercicio 10
+**Lista de compras:** Desarrolle un programa que implemente las clases necesarias para realizar una `Lista_de_compras`.
+Implemente los siguientes métodos:
+- `agregar_item(item)`: Agrega un item a la lista
+- `eliminar_item(item)`: Elimina "item" de la lista de compras.
+- `mostrar_lista()`: Muestra en un formato legible la lista.
+- `__str__()`: Ver mas abajo
+
+> Un item puede representarse con un string
+
+
+### Método `__str__`
+El método `__str__(self)` es el que usa Python para imprimir el contenido del objeto y es posible combinarlo con `print()`. Usemos un ejemplo para entender el concepto. Supongamos que tenemos la siguiente clase:
+
+```
+class Persona:
+    def __init__(self, nombre, edad):
+        self.nombre = nombre
+        self.edad = edad
+
+
+p = Persona('Juan', 32)
+
+print(p)
+```
+Si corremos el programa, el resultado será algo así:
+```bash
+<__main__.Persona object at 0x7f4d474f6a10>
+```
+¿Por qué no imprime los datos?. Porque imprime el objeto en sí y la referencia a la dirección donde se encuentra. 
+
+En cambio, si implementamos el método `__str__` nos queda de la siguiente manera:
+
+``` python
+class Persona:
+    def __init__(self, nombre, edad):
+        self.nombre = nombre
+        self.edad = edad
+
+    # El método debe devolver un string
+    def __str__(self):
+        return (f"Soy {self.nombre} y tengo {self.edad} años")
+
+
+p = Persona('Juan', 32)
+
+print(p)
+```
+
+El resultado será:
+```bash
+Soy Juan y tengo 32 años
+```
+
+Implemente el código necesario en su código para que cuando se llame a `print()` y se le envíe un objeto de la clase `Lista_de_compras` imprima el contenido en la pantalla.
+
+# Ejercicio 11
+
+Defina una clase `Estudiante` que contenga los atributos nombre, edad y calificación. Luego defina una clase llamada curso que contenga los atributos nombre del curso, estudiantes. Estudiantes debe ser la lista de estudiantes.
+
+Implemente el métodos `__str__` en la clase `Curso` para que imprima de la siguiente manera:
+
+```bash
+Curso: Programación
+Total de alumnos: 5
+
+Alumnos:
+    Nombre      Calificación
+    Martin      7
+    Matías      6
+    Lorena      8
+    Gonzalo     10
+    Belén       10
+
+```
+
+
 -----
+
+
 
 <img src="img/foot_logos.png" alt="Descripción de la imagen" style="width:100%; filter: grayscale(100%); opacity: 90%">
 
