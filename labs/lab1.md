@@ -38,7 +38,7 @@ Nuestro archivo `csv` constará de dos columnas: "Concepto" y "Monto". Por ejemp
 | Concepto                   	| Monto 	|
 |----------------------------	|-------	|
 | Carga Sube                 	| 500.00   	|
-|  Almuerzo lunes            	| 950.00   	|
+| Almuerzo lunes            	| 950.00   	|
 | Regalo de cumple para Luca 	| 10500.00 	|
 
 En nuestro archivo se verá de la siguiente manera:
