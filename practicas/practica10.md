@@ -1,4 +1,4 @@
-# WIP Práctica 10 
+# Práctica 10 
 
 ## Programación orientada a Objetos - Parte II
 
@@ -36,13 +36,13 @@ Los diagramas de clase suelen ser mucho mas complejos porque hay muchas variante
 
 [Diagramador online](https://app.diagrams.net/)
 
-## Ejercicio 0
+## Ejercicio 1
 
 Crea una clase abstracta llamada `Figura_geometrica` con un método abstracto `calcular_area()`. Luego, crea subclases como `Rectangulo` y `Circulo` que hereden de esta clase y proporcionen implementaciones concretas de `calcular_area()`.
 
 
 
-## Ejercicio 1
+## Ejercicio 2
 Realice un programa que contenga una _superclase_ `Animal` y luego una serie de _subclases_; `Gato`, `Perro`, `Pollo`, `Humano`.
 Cada clase debe conocer los mensajes `hablar()` y `quien_sos()` y debe imprimir en pantalla un texto diferente como muestra la siguiente tabla
 
@@ -57,7 +57,7 @@ Para el mensaje `quien_sos()` utilice algún mecanismo que obtenga el nombre de 
 
 
 
-## Ejercicio 2
+## Ejercicio 3
 >Este ejercicio es una ampliación del [ejercicio 4](https://github.com/kity-linuxero/prog_CFP410/blob/main/practicas/practica8.md#ejercicio-4) de la práctica anterior.
 
 Escriba un programa llamado `estructura_datos.py` y en él implemente utilizando _POO_ una estructura de datos **Pila** (si ya tiene hecho el ejercicio de la práctica anterior puede usarlo como guía) y otra estructura de datos **Cola**.
@@ -86,7 +86,7 @@ Trate de reutilizar todo el código que pueda generalizando en la clase `Estruct
 
 >Importante: Respete el nombre de las clases; utilizando `Pila` para representar las pilas y `Cola` para representar las colas. Como también el nombre de los métodos propuestos. Puede crear métodos auxiliares si los necesita. Pero la interfaz hacia el usuario debe ser la sugerida.
 
-## Ejercicio 3
+## Ejercicio 4
 
 Un banco tiene un sistema que ofrece _cajas de ahorro_ y _cuentas corrientes_. Ambas tienen un uso similar, pero la diferencia radica en que la cuenta corriente tiene un _monto al descubierto_ que por defecto será $10.000 por cuenta (el mismo puede ser cambiado solicitando al banco la ampliación del límite descubierto) lo que le permite extraer o transferir más dinero del que dispone en la cuenta.
 
@@ -116,30 +116,7 @@ Los tipos de datos que se hace referencia en el diagrama son:
 Tenga en cuenta la __protección de los atributos__ es decir, nadie debe poder modificar el atributo `monto` ni `titular` sin usar los métodos correspondientes.
 
 
-
-
-## Ejercicios Extra
-
-## Unittest 
-
-#### En este ejercicio se utilizarán unittest para verificar que la estructura de datos del ejercicio 2 funciona como se espera
-
-Descargue el archivo [test_pila_cola.py](https://github.com/kity-linuxero/prog_CFP410/blob/main/practicas/ej_resueltos/practica9/test_pila_cola.py) para verificar que su estructura de datos funciona. Deben pasar todos los test. Puede verificar el código fuente del test para tener mas información.
-
-El archivo debe estar en la misma carpeta que el programa `estructura_de_datos.py` y debe ejecutarse el programa `test_pila_cola.py`.
-El resultado esperado es el siguiente:
-
-```bash
-..........
-----------------------------------------------------------------------
-Ran 10 tests in 0.001s
-
-OK
-```
-
-> Revise con atención el archivo [test_pila_cola.py](https://github.com/kity-linuxero/prog_CFP410/blob/main/practicas/ej_resueltos/practica9/test_pila_cola.py). ¿Qué es lo que está haciendo?
-
-[Documentación adicional](https://docs.python.org/es/3/library/unittest.html)
+# Ejercicios Extra
 
 ## Tarjeta SUBE
 
