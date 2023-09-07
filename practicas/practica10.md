@@ -30,7 +30,7 @@ En diagrama UML para representar una jerarquía de clase y subclases es la sigui
 
 Donde se puede apreciar que `Subclase_1`y `Subclase_2` son clases _hijas_ de `Clase`. Y el atributo `atributo2` de `Clase` es _una instancia_ de `Otra_Clase`.
 
-En caso de querer representar una [clase abstracta](https://clases.concristian.com.ar/clasePoo2.html#/clases_abstractas) el título de la clase se pondrá en letra cursiva.
+En caso de querer representar una [clase abstracta](https://programacion.concristian.com.ar/clase11-poo.html#/clase_abstracta) el título de la clase se pondrá en letra cursiva.
 
 Los diagramas de clase suelen ser mucho mas complejos porque hay muchas variantes a tener en cuenta por ejemplo las relaciones entre clases. En las herencias aparecen nuevos conceptos como _generalización_ o _especialización_ que no son objeto de estudio en este curso.
 
@@ -58,7 +58,7 @@ Para el mensaje `quien_sos()` utilice algún mecanismo que obtenga el nombre de 
 
 
 ## Ejercicio 3
->Este ejercicio es una ampliación del [ejercicio 4](https://github.com/kity-linuxero/prog_CFP410/blob/main/practicas/practica8.md#ejercicio-4) de la práctica anterior.
+>Este ejercicio es una ampliación del [ejercicio 4](https://github.com/kity-linuxero/practicas_23/blob/main/practicas/practica9.md#ejercicio-5) de la práctica anterior.
 
 Escriba un programa llamado `estructura_datos.py` y en él implemente utilizando _POO_ una estructura de datos **Pila** (si ya tiene hecho el ejercicio de la práctica anterior puede usarlo como guía) y otra estructura de datos **Cola**.
 
