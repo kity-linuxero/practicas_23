@@ -130,9 +130,19 @@ Realice un diagrama de clases que contenga la siguiente estructura.
 
 La clase Sube
 
-- `_saldo`: El saldo en pesos de la tarjeta. El sáldo descubierto (en negativo) deberá estar como variable de clase.
-- `recargar(un_monto)`: Recarga la tarjeta
+- `_titular`: Nombre y apellido del titular
+- `_saldo`: El saldo en pesos de la tarjeta. El saldo descubierto (en negativo) deberá estar como variable de clase.
+- `_id`: Es el número de la SUBE. Son 16 dígitos con el siguiente formato 6061 268x xxxx xxxx.
+- `recargar(un_monto)`: Recarga la tarjeta con un monto
 - `ultimo_viaje()`: Devuelve la hora del último viaje.
+- `id`: Devuelve en formato legible el ID de la tarjeta.
+- `titular`: Devuelve el nombre del titular
+- `__str__()`: Devuelve el formato legible todos los datos de la SUBE. Por ejemplo:
+```bash
+    Titular: Juan Leiva
+    Saldo: $ 134,56
+    Número de tarjeta: 6061 2689 1323 1258
+```
 - `cobrar_viaje()`: Cobra un viaje.
     - Todos los viajes tendrán un valor fijado como variable de la clase Sube.
     - Depende el tipo de tarjeta se debe aplicar la tarifa correspondiente.
@@ -154,6 +164,9 @@ sleep(5)
 print("La espera ha terminado.")
 
 ```
+
+> Recuerde que puede crear métodos y atributos auxiliares si los necesita.
+
 
 Info sobre fechas y horas en Python: [link](https://oregoom.com/python/fechas-y-horas/)
 
