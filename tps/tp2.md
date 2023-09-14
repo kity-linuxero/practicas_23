@@ -13,7 +13,7 @@ Fecha de entrega: 13/10/2023
 
 El Sistema Único de Boleto Electrónico, conocido como **SUBE**, es un servicio para pagar con una sola tarjeta viajes en colectivos, subtes y trenes. Tiene tarifa diferencial para jubilados, excombatientes, beneficiaros de planes y trabajadoras domésticas, como también beneficios como [_red sube_](https://www.argentina.gob.ar/redsube) que ofrece descuentos si se realizan una o más combinaciones en un lapso de 2 horas.
 
-Realice un diagrama de clases que contenga la siguiente estructura.
+Realice un programa que contenga la estructura de clases siguiente:
 
 - Sube
     - Normal
@@ -26,21 +26,20 @@ Realice un diagrama de clases que contenga la siguiente estructura.
 - `_saldo`: El saldo en pesos de la tarjeta.
 - `_id`: Es el número de la SUBE. Son 16 dígitos con el siguiente formato 6061 268x xxxx xxxx.
 - `recargar(un_monto)`: Recarga la tarjeta con un monto. Debe retornar:
-    - `False` en caso que se ingrese un valor imposible o menor a 0.
+    - `False` en caso que se ingrese un valor imposible o menor/igual a 0.
     - `True` en caso que la carga se haga exitosa. 
 - `ultimo_viaje()`: Retorna:
     - _Ningún viaje registrado._ Si no se ha registrado ningún viaje. (Un string)
-    - _Último viaje: _. Si se ha realizado un viaje.
+    - Si se ha realizado un viaje retorna la hora registrada.
 - `id`: Devuelve en formato legible el ID de la tarjeta, por ejemplo `6061 2689 1323 1258`. El formato debe ser un string.
 - `titular`: Devuelve el nombre del titular
-- `nueva_sube(titular)`: Crea una nueva Sube a nombre de _titular_. Tener en cuenta que puede ser una Sube _normal_ o _diferencial_. Será el constructor de las subclases.
+
 - `cobrar_viaje()`: Cobra un viaje.
-    - Todos los viajes tendrán un valor fijado como variable de la clase Sube.
     - Depende el tipo de tarjeta se debe aplicar la tarifa correspondiente.
     - Tener en cuenta el beneficio de _red sube_:
         - Primer viaje: Se paga el total
         - Segundo viaje: Se paga el 50%
-        ~~- A partir del tercer viaje: se paga un 75% menos~~ 
+        - ~~A partir del tercer viaje: se paga un 75% menos~~ 
     
     Los beneficios de la red sube aplica solo han pasado menos de dos horas del último viaje.
         
@@ -107,7 +106,7 @@ Mas info: [Python time (en inglés)](https://www.programiz.com/python-programmin
 
 ## Importante
 
-El programa debe pasar los test de unidad propuestos
+El programa debe pasar los ()[test de unidad] propuestos
 
 
 ### Referencias
