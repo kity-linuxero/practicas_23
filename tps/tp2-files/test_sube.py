@@ -1,4 +1,7 @@
 # Pruebas unitarias
+"""
+Copie este archivo en la misma carpeta donde tenga su programa a probar. El programa a probar debe llamarse sube.py
+"""
 import unittest
 from sube import *
 
