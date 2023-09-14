@@ -106,7 +106,7 @@ Mas info: [Python time (en inglés)](https://www.programiz.com/python-programmin
 
 ## Importante
 
-El programa debe pasar los ()[test de unidad] propuestos
+El programa debe pasar los (https://github.com/kity-linuxero/practicas_23/tps/tp2-files/test_sube.py)[test de unidad] propuestos
 
 
 ### Referencias
