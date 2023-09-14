@@ -85,13 +85,12 @@ class TestSube(unittest.TestCase):
     
     def test_red_sube_normal(self):
         Sube.saldo_descubierto_maximo = -25
-        Sube.tiempo_para_descuento = 1
+        Sube.tiempo_para_descuento = 0.2
 
         tarifa = Sube.tarifa_viaje
 
         # Primer viaje
         self.sube_normal.recargar(100)
-        print(f"Hola {self.sube_normal.saldo}")
         self.sube_normal.cobrar_viaje()
 
         # Segundo viaje en combinación. Se aplica el descuento
@@ -99,16 +98,11 @@ class TestSube(unittest.TestCase):
         self.sube_normal.cobrar_viaje()
         self.assertEqual(self.sube_normal.saldo,(saldo - tarifa*0.5),"No se aplicó correctamente el descuento de Red Sube del -50%")
 
-        # Tercer viaje en combinación. Se aplica el descuento del 75%
-        saldo = self.sube_normal.saldo
-        self.sube_normal.cobrar_viaje()
-        self.assertEqual(self.sube_normal.saldo,(saldo - tarifa*0.25),"No se aplicó correctamente el descuento de Red Sube del -75%")
-
 
     def test_red_sube_diferencial(self):
         
         Sube.saldo_descubierto_maximo = -25
-        Sube.tiempo_para_descuento = 1
+        Sube.tiempo_para_descuento = 0.2
 
         tarifa = Sube.tarifa_viaje * 0.45
 
@@ -121,11 +115,6 @@ class TestSube(unittest.TestCase):
         saldo = self.sube_diferencial.saldo
         self.sube_diferencial.cobrar_viaje()
         self.assertEqual(self.sube_diferencial.saldo,(saldo - tarifa*0.5),"No se aplicó correctamente el descuento de Red Sube del -50%")
-
-        # Tercer viaje en combinación. Se aplica el descuento del 75%
-        saldo = self.sube_diferencial.saldo
-        self.sube_diferencial.cobrar_viaje()
-        self.assertEqual(self.sube_diferencial.saldo,(saldo - tarifa*0.25),"No se aplicó correctamente el descuento de Red Sube del -75%")
 
 
 if __name__ == '__main__':

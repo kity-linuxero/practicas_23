@@ -40,10 +40,11 @@ Realice un diagrama de clases que contenga la siguiente estructura.
     - Tener en cuenta el beneficio de _red sube_:
         - Primer viaje: Se paga el total
         - Segundo viaje: Se paga el 50%
-        ~~- A partir del tercer viaje: se paga un 75% menos~~ Para simplificar la implementación se elimina ese caso.
-        - Los beneficios de la red sube aplica solo han pasado menos de dos horas del último viaje.
+        ~~- A partir del tercer viaje: se paga un 75% menos~~ 
+    
+    Los beneficios de la red sube aplica solo han pasado menos de dos horas del último viaje.
         
-        Para simular la demora usaremos `sleep` de `time`. Y usaremos la variable de clase `tiempo_para_descuento` para definir el tiempo expresado en segundos para calcular el descuento de la red sube.
+    Para simular la demora usaremos `sleep` de `time`. Y usaremos la variable de clase `tiempo_para_descuento` para definir el tiempo expresado en segundos para calcular el descuento de la red sube.
 
 El siguiente código es un ejemplo de un mensaje que se demora 5 segundos
 ```python
@@ -80,8 +81,37 @@ class Sube:
 
 ```
 
+#### Marca de hora
+
+Para definir el tiempo o marca de tiempo, algo que se suele usar es el tiempo desde el _epoch_. Es decir, la cantidad de tiempo que pasó desde el 1 de enero de 1970 00:00:00 UTC, dicho tiempo se lo conoce como `timestamp` o `Unix Time` [ref](https://es.wikipedia.org/wiki/Tiempo_Unix).
+
+De esa manera podemos usar el paso del tiempo de una manera sencilla.
+Por ejemplo: 
+
+```python
+import time
+hora = time.time()
+print(hora)
+```
+
+#### El resultado será:
+
+```bash
+1694658895.68325
+```
+Eso es el tiempo, expresado en segundos, que pasó desde el epoch.
+
+Con ese número podemos calcular hasta la fracción de segundo en qué momento ocurrió un evento.
+
+Mas info: [Python time (en inglés)](https://www.programiz.com/python-programming/time)
+
+## Importante
+
+El programa debe pasar los test de unidad propuestos
+
 
 ### Referencias
+- [Python time (en inglés)](https://www.programiz.com/python-programming/time)
 - Info sobre fechas y horas en Python: [link](https://oregoom.com/python/fechas-y-horas/)
 - [Sitio oficial Sube](https://www.argentina.gob.ar/sube)
 
