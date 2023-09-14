@@ -44,7 +44,6 @@ class TestSube(unittest.TestCase):
         self.sube_normal.recargar(50)
         
         # Test cobra un pasaje. Debe quedar en 0
-        #self.assertEqual(self.sube_normal.cobrar_viaje(), "Viaje exitoso. Nuevo saldo: 0.0", "Viaje mal cobrado. Debería ser 0.0")
         self.assertTrue(self.sube_normal.cobrar_viaje())
         self.assertEqual(0.0,self.sube_normal.saldo)
         
