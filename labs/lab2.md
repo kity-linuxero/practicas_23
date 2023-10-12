@@ -420,6 +420,7 @@ Con Tk, se pueden hacer múltiples aplicaciones de forma muy sencilla. En el sig
 
 - Ejemplo de código: [Password gen gui](https://github.com/kity-linuxero/practicas_23/blob/main/labs/lab2_files/password_generator)
 
+![](./img/passgen_gui.png)
 
 ## Otras librerías que pueden ser útiles
 
