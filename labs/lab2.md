@@ -455,7 +455,7 @@ pyinstaller -F mi_programa.py
 
 Compilar sin ventana de consola (solo GUI)
 ```bash
-pyinstaller --no-console -F mi_programa.py
+pyinstaller --windowed -F mi_programa.py
 ```
 
 ó
