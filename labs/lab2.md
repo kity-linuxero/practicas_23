@@ -453,6 +453,11 @@ Compilar nuestro programa
 pyinstaller -F mi_programa.py
 ```
 
+Compilar sin ventana de consola (solo GUI)
+```bash
+pyinstaller --no-console -F mi_programa.py
+```
+
 ó
 ```bash
 python -m PyInstaller -F mi_programa.py
