@@ -4,11 +4,11 @@ El objetivo en este TP es que elija una aplicación para poder implementar una i
 
 ## Taller de GUI
 
-En el Centro de Formación Profesional, todos los años se realiza una muestra en la que cada curso expone material que van realizando a lo largo del año.
+En el Centro de Formación Profesional, todos los años se realiza una muestra en la que cada curso expone material que van realizando a lo largo del año. Este año la muestra será el día __miércoles 8 de noviembre de 2023__ con la temática sobre los 40 años de democracia.
 
-La programación tiene su complejidad y lo hemos visto durante el curso, para el resto de personas puede no ser llamativo o entender el código fuente de un programa orientado a objetos siguiendo las mejores prácticas sin embargo, pueden apreciar mas un programa con interface gráfica.
+La programación tiene su complejidad y lo hemos visto durante el curso, para el resto de personas puede no ser llamativo o directamente no entender el código fuente de un programa orientado a objetos siguiendo las mejores prácticas sin embargo, pueden apreciar mas un programa con interface gráfica.
 
-En el curso no hemos visto GUI (Interfaces gráficas de usuario por su siglas en inglés) porque nos enfocamos puramente en programación. Pero también hemos visto el uso de librerías que pueden facilitarnos gran parte del desarrollo, como por ejemplo una interface gráfica.
+En el Lab2 del curso hemos visto entre otras cosas que son las GUI (Interfaces gráficas de usuario por su siglas en inglés) y algunos ejemplos de como empezar a programar con GUI.
 
 Existen numerosas librerías para realizar interfaces gráficas para aplicaciones de escritorio (desktop), web, para dispositivos móviles, etc.
 
@@ -17,7 +17,8 @@ Para este taller de GUI proponemos dos alternativas para realizar aplicaciones, 
     Aplicaciones de escritorio utilizando la librería Tkinter
     Un mini-juego utilizando arcade o pygame
 
-Puede realizar alguna aplicación de las siguientes usando Tkinter
+
+## Aplicaciones para Tkinker
 
 
 ### Calculadora Simple
@@ -45,9 +46,23 @@ Crea un generador de contraseñas que permita a los usuarios especificar la long
 ### Temporizador o Cronómetro
 Diseña una aplicación que funcione como temporizador o cronómetro. Los usuarios pueden configurar temporizadores y contar el tiempo.
 
+### Juego de piedra papel o tijera
+Realizar un luego de piedra, papel o tijera con interfaz gráfica.
+
+### Sorteo de Lotería
+Desarrollar un programa con interface gráfica para tomar nombres de personas con las apuestas (números del 0 al 99) luego que se realice el sorteo y el programa indique el o la ganadora. En caso de no haber ganador, puede informar que no ha ganado nadie. Debe estar la opción además de sortear entre las apuestas realizadas, de manera que siempre haya ganador.
+
+### Descargar contenido de YouTube
+Desarrolle un programa para descargar contenido de YouTube tanto en video como en solo audio.
+
+
 ### Juego en 2D
 Puede utilizar algunos ejemplos provistos por pygame o Arcade para ver como se desarrolla un juego y luego modificarlo para realizar uno propio.
 
+
+## Compilación del programa
+
+Para que el programa sea ejecutable en otra computadora es necesario compilar el programa, puede ver como compilar su programa siguiendo [estos pasos](https://github.com/kity-linuxero/practicas_23/blob/main/labs/lab2.md#compilar-nuestros-programas)
 
 -----
 
