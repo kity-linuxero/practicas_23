@@ -55,6 +55,14 @@ Desarrollar un programa con interface gráfica para tomar nombres de personas co
 ### Descargar contenido de YouTube
 Desarrolle un programa para descargar contenido de YouTube tanto en video como en solo audio.
 
+[Ejemplo](https://github.com/kity-linuxero/practicas_23/tree/main/tps/tp3-files/yt-downloader)
+
+
+
+#### Documentación adicional y ejemplos de Tkinter:
+- [Introducción a Tkinter](https://recursospython.com/guias-y-manuales/introduccion-a-tkinter/)
+- [Mas recursos Tkinter](https://recursospython.com/tag/tkinter/)
+
 
 ### Juego en 2D
 Puede utilizar algunos ejemplos provistos por pygame o Arcade para ver como se desarrolla un juego y luego modificarlo para realizar uno propio.
