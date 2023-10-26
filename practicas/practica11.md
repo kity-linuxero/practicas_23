@@ -1,4 +1,4 @@
-# Práctica 10 - Git - Primera parte
+# Práctica 11 - Git - Primera parte
 
 ## Instalación de Git
 
