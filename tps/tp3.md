@@ -74,6 +74,6 @@ Para que el programa sea ejecutable en otra computadora es necesario compilar el
 
 -----
 
-<img src="../practicas/img/foot_logos.png" alt="Descripción de la imagen" style="width:100%; filter: grayscale(100%); opacity: 90%">
+<img src="../practicas/img/foot_logos.png" alt="Descripción de la imagen" style="width:100%; filter: grayscale(100%); opacity: 40%">
 
 

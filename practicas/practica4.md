@@ -281,4 +281,4 @@ La lista es: ['Trenes', 'Camiones', 'Tractores', 'Barcos', 'Aviones', 'Peatones'
 ```
 -----
 
-<img src="img/foot_logos.png" alt="Descripción de la imagen" style="width:100%; filter: grayscale(100%); opacity: 90%">
+<img src="img/foot_logos.png" alt="Descripción de la imagen" style="width:100%; filter: grayscale(100%); opacity: 40%">

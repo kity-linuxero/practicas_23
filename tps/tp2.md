@@ -117,6 +117,6 @@ El programa debe pasar los [test de unidad](https://github.com/kity-linuxero/pra
 
 -----
 
-<img src="../practicas/img/foot_logos.png" alt="Descripción de la imagen" style="width:100%; filter: grayscale(100%); opacity: 90%">
+<img src="../practicas/img/foot_logos.png" alt="Descripción de la imagen" style="width:100%; filter: grayscale(100%); opacity: 40%">
 
 

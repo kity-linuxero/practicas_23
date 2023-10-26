@@ -123,4 +123,4 @@ La forma de entrega es comprimir el archivo.py y enviarlo como adjunto a _cgiamb
 
 -----
 
-<img src="../practicas/img/foot_logos.png" alt="Descripción de la imagen" style="width:100%; filter: grayscale(100%); opacity: 90%">
+<img src="../practicas/img/foot_logos.png" alt="Descripción de la imagen" style="width:100%; filter: grayscale(100%); opacity: 40%">

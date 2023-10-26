@@ -210,4 +210,4 @@ Sugerencias (Son opcionales pero le puede ayudar a resolver el ejercicio)
 
 -----
 
-<img src="img/foot_logos.png" alt="Descripción de la imagen" style="width:100%; filter: grayscale(100%); opacity: 90%">
+<img src="img/foot_logos.png" alt="Descripción de la imagen" style="width:100%; filter: grayscale(100%); opacity: 40%">

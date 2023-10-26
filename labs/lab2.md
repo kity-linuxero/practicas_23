@@ -499,4 +499,4 @@ También hay que prestar atención a la __licencia__ con la cual está publicada
 
 -----
 
-<img src="../practicas/img/foot_logos.png" alt="Descripción de la imagen" style="width:100%; filter: grayscale(100%); opacity: 90%">
+<img src="../practicas/img/foot_logos.png" alt="Descripción de la imagen" style="width:100%; filter: grayscale(100%); opacity: 40%">
