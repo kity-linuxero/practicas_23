@@ -17,13 +17,12 @@ Si se opta por un proyecto propio, se requieren los siguientes puntos:
     - Agregar el archivo [README.md](https://docs.github.com/es/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes) con la descripción del programa y como hacerlo funcionar. Utilice la sintaxis [Markdown](https://markdown.es/sintaxis-markdown/) para organizar la documentación y el readme.
     - Agregue el archivo `.gitignore` para Python.
 
-- Utilice los siguientes branchs:
+- Puede usar los siguientes branchs para tener una guía:
     - `main`: rama principal por defecto. Recuerde mantener "limpio" el branch y que lo que haya en el main sea código funcional.
-    - `develop`: rama de desarrollo. Es la que debe usar por lo general cuando está desarrollando el programa.
+    - `develop`: Rama de desarrollo. Es la que debe usar por lo general cuando está desarrollando el programa.
     - `feature/branch`: Parten y se fusionan con la rama `develop`. `feature` se refiere a una característica que tiene el programa. Por ejemplo si estamos desarrollando un juego y en algún momento quisiéramos desarrollar un escenario un branch puede ser `feature/escenario_selva`.
     > Tales branchs son siguiendo (parcialmente) la forma de trabajo de [Gitflow](https://www.google.com/search?channel=sn&q=giflow).
 
- 
 - Implementar el manejo de excepciones de manera de hacer robusto su programa.
 - Debe estar bien definidos los módulos y separados según corresponda.
 - No es obligatorio que el programa sea orientado a objetos, pero piense si el hacerlo orientado a objetos puede hacer su programa mas fácil de implementar y de entender.
