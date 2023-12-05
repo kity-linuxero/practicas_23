@@ -11,12 +11,14 @@ Estos son los trabajos prácticos entregados por lxs alumnxs con sus respectivos
 |---------|----------------------------------------|------------------------------------------------------------------|
 | Agata   | Juego plataforma (arcade)              | [Github repo](https://github.com/agtha-rmz/druids_challenge)     |
 | Agustin | Juego estratégico-laberíntico (pygame) | [Github repo](https://github.com/Saume08/boomberman.git)         |
+| Federico| Bloc de notas (tk)                     | [Github repo](https://github.com/GigenaFederico/BlocDeNotas.git) |
 | Mauro   | Juego plataforma (pygame)              | [Github repo](https://github.com/MauroSei/JumpingBox)            |
 | Marcelo | Juego plataforma (pygame)              | [Github repo](https://github.com/Argchacal/Primer-proyecto.git ) |
 | Mariela | Juego piedra, papel, tijeras (tk)      | [Github repo](https://github.com/marielariela/piedrapapel)       |
 | Marcos  | Calculadora (tk)                       | [Github repo](https://github.com/MarcosServin/TP4)               |
 
 - Elija el programa de algún compañero o compañera.
+- Lea la documentación (readme)
 - Ejecute el programa
 - Estudie el código.
 
