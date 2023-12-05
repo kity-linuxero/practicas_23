@@ -29,6 +29,10 @@ Estos son los trabajos prácticos entregados por lxs alumnxs con sus respectivos
 #### Reportando errores:
 - Vaya a la opción de `issues` del programa y reporte algún error que tenga el programa. Detallando en qué momento se produce y cómo el desarrollador puede replicar ese error. Aporte capturas de pantallas si lo ve necesario.
 
+![](./img/lab3_issues.png)
+
+![](./img/lab3_issues_new.png)
+
 #### Aportando código
 - Revise los issues por si tiene algún bug o algo para mejorar.
 - Haga un `fork` del programa. Un fork, es una copia del repositorio en un momento determinado y lo copiará a su usuario. Ahora tendrá una copia del programa en su cuenta de Github para realizar cambios.
@@ -37,8 +41,12 @@ Estos son los trabajos prácticos entregados por lxs alumnxs con sus respectivos
 - Haga los commits necesarios y el `push`. Esto subirá las correcciones pero en su copia. Hay que avisarle al desarrollador original que usted ha mejorado el programa.
 - Realice un `pull-request` (PR) desde Github para que el propietario original del programa reciba las mejoras sugeridas. Quedará en decisión del propietario aprobar o no el PR.
 
+![](./img/lab3_PR.png)
+
+![](./img/lab3_PR_new.png)
 
 
+¡Muchas gracias por asistir! XD
 
 -----
 
